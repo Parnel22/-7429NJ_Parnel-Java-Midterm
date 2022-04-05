@@ -1,58 +1,69 @@
 ***ANSWER ALL OF THE QUESTIONS BELOW***
 
 Why do we need data structure?
-Answer:
+Answer: Its used to store and organize data which we use algorithms to manipulate them. It makes your code more efficient.
 
 What are the various operations that can be performed on different data structures?
-Answer:
+Answer:Traversal, Insertion, Deletion, searching, sorting and merging.
 
 When would we use data structures in the real world?
-Answer:
+Answer: a real world example would be using a gps. The navigation could get us to our destination in the fastest
+time, the shortest mileage, or to avoid traffic, or to avoid highways.
 
 What is an Array?
-Answer:
+Answer: it is a data structure that holds a fixed number of values of a particular data type. []
 
 What is the difference between Array and ArrayList?
-Answer:
+Answer:An arrayList is an array that can be resized while array is fixed.
 
 What is a LinkedList?
-Answer:
+Answer: its a collection that can contain many objects of the same type just like an arrayList. the difference is that
+linkedLists store items like containers. the list has a link to the first container and each container has a link to the
+next container in the list.
 
 How is an Array different from LinkedList?
-Answer:
+Answer: The differences are an array's size cannot be altered at runtime while a linkedList can be changed. Arrays are stored
+in contiguous blocks of memory while linkedLists exist at scattered non-contiguous addresses in memory.
 
 What is a Queue?
-Answer:
+Answer:Its an interface that uses FIFO order. (first in first out).
 
 What is a Stack (referring to data structures)?
-Answer:
+Answer:Uses LIFO or Filo. Insertion and deletion happen at the same end.
 
 What is FIFO and LIFO?
-Answer:
+Answer: Fist in first out and last in first out.
 
 Explain Big O Notation?
-Answer:
+Answer: its a theory that explains how long an algorithm takes to execute and how much memory it uses. its goal is to achieve
+efficiency of program algorithms to save time and memory.
 
 What is the best case to search an element from an array?
-Answer:
+Answer: 0(1) - when element is first or last in array
 
 What is the worst case to search an element from an array?
-Answer:
+Answer: 0(n/2) - when element is in the middle or not present
 
 Describe what a tree data structure is?
-Answer:
+Answer: Its a non-linear hierarchical kind of data arranged in a tree like structure. we can say it has roots, branches, and leaves
+connected with each other.
 
 Describe what a graph data structure is?
-Answer:
+Answer: Its a non-linear data structure made up of nodes and edges. It consists of a finite set of nodes and and set of edges which connect
+pair of nodes.
 
 What is the difference between the HashTable and HashMap?
-Answer:
+Answer:HashTables methods are not synchronized, they can have multiple threads operate and is not thread safe whereas hashMaps are the
+complete opposite. for Hashtables, null is allowed for both key and value, while in hashmap, null is not allowed for either
+resulting in a null pointer exception.
 
 How do HashMaps work in Java? How do they store values, and when are they useful?
-Answer:
+Answer: HashMaps store values in key value pairs.A key refers to a specific value. They are useful when handling a
+single-thread applications as it performs better since it is nonsynchronized
 
 What is ArrayIndexOutOfBoundsException in java? When does it occur?
-Answer:
+Answer:It is an exception that occurs at run-time. the program tries to access an element of a data structure in
+an index that does not exist (out of bound)
 
 What are the different ways of copying an array into another array?
 Answer:
