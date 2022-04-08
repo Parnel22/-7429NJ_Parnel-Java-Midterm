@@ -69,7 +69,7 @@ Answer: complile time polymorphism. 3 ways are having a different number of para
 Explain exceptions in java and how to handle them.
 Answer:unchecked-compile time-compiler is aware at compile time and gives warnings. checked-runtime- checks at runtime.
 Its used to handle errors so that the flow of the application is preserved. We handle them by using try/catch blocks,throws and finally keywords. we can
-program statements to let us know what is causing the error.
+program statements to let us know what is causing the error/warning.
 
 What is static keyword? When and how do we use it?
 Answer: static is used to share the same variable or method in a given class. The variable/method is static meaning unchanging in memory. Only one instance.
